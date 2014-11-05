@@ -1,0 +1,4 @@
+Created a simple native iPhone application in Swift.
+
+The application allows the user to view a list of tasks, and remove them.
+The second tab within the application allows the creation of tasks.

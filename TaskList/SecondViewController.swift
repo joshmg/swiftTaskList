@@ -1,25 +1,32 @@
-//
-//  SecondViewController.swift
-//  TaskList
-//
-//  Created by Joshua Green on 11/5/14.
-//  Copyright (c) 2014 Joshua Green. All rights reserved.
-//
-
 import UIKit
 
-class SecondViewController: UIViewController {
+class SecondViewController: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet var taskTitle: UITextField!;
+    @IBOutlet var taskDescription: UITextField!;
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
+    
+    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+        self.view.endEditing(true);
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder();
+        return true;
+    }
+    
+    @IBAction func addButtonClicked(sender: UIButton) {
+        taskManager.addTask(taskTitle.text, taskDescription: taskDescription.text);
+        taskTitle.text = "";
+        taskDescription.text = "";
+    }
+    
 }
 

@@ -14,6 +14,7 @@
 		E65A6BD91A0AA30600CFEE67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E65A6BD81A0AA30600CFEE67 /* Images.xcassets */; };
 		E65A6BDC1A0AA30600CFEE67 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E65A6BDA1A0AA30600CFEE67 /* LaunchScreen.xib */; };
 		E65A6BE81A0AA30600CFEE67 /* TaskListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65A6BE71A0AA30600CFEE67 /* TaskListTests.swift */; };
+		E65A6BF21A0AA32400CFEE67 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65A6BF11A0AA32400CFEE67 /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		E65A6BE11A0AA30600CFEE67 /* TaskListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E65A6BE61A0AA30600CFEE67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E65A6BE71A0AA30600CFEE67 /* TaskListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListTests.swift; sourceTree = "<group>"; };
+		E65A6BF11A0AA32400CFEE67 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				E65A6BD81A0AA30600CFEE67 /* Images.xcassets */,
 				E65A6BDA1A0AA30600CFEE67 /* LaunchScreen.xib */,
 				E65A6BCD1A0AA30600CFEE67 /* Supporting Files */,
+				E65A6BF11A0AA32400CFEE67 /* TaskManager.swift */,
 			);
 			path = TaskList;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				E65A6BD41A0AA30600CFEE67 /* SecondViewController.swift in Sources */,
 				E65A6BD01A0AA30600CFEE67 /* AppDelegate.swift in Sources */,
+				E65A6BF21A0AA32400CFEE67 /* TaskManager.swift in Sources */,
 				E65A6BD21A0AA30600CFEE67 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
